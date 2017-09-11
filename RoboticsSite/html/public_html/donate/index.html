@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-font-smoothing: antialiased;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			font-family: Arial, Helvetica, sans-serif
+			color:white;
+		}
+		
+		
+		body {
+			color: white;
+			font-family-size: proxima-nova-alt, "Proxima Nova Alt", sans-serif;
+			background-color:#37474f;
+		}
+		
+		
+		b {
+			font-weight: 500;
+			font-size: 16px;
+			color: white;
+			font-size:2vw;
+		}
+		
+		.banner {
+			position: relative;
+			width: 100%;
+			overflow: auto;
+			font-size: 18px;
+			line-height: 24px;
+			text-align: center;
+			color: rgba(255, 255, 255, .6);
+			text-shadow: 0 0 1px rgba(0, 0, 0, .05), 0 1px 2px rgba(0, 0, 0, .3);
+			background: #5b4d3d;
+			box-shadow: 0 1px 2px rgba(0, 0, 0, .25);
+		}
+		
+		.banner ul {
+			list-style: none;
+			width: 300%;
+		}
+		
+		.banner ul li {
+			display: block;
+			float: left;
+			width: 33%;
+			padding: 160px 0 110px;
+			min-height: 550px;
+			/*		-webkit-background-size: 100% 100%;
+		-moz-background-size: 100% 100%;
+		-o-background-size: 100% 100%;
+		-ms-background-size: 100% 100%;
+		background-size: 100% 100%;*/
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: 50% 50%;
+			box-shadow: inset 0 -3px 6px rgba(0, 0, 0, .1);
+		}
+		
+		.banner h1,
+		.banner h2 {
+			font-size: 40px;
+			line-height: 52px;
+			color: #fff;
+		}
+		
+		.banner .btn {
+			display: inline-block;
+			margin: 25px 0 0;
+			padding: 9px 22px 7px;
+			clear: both;
+			color: #fff;
+			font-size: 12px;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-decoration: none;
+			border: 2px solid rgba(255, 255, 255, .4);
+			border-radius: 5px;
+		}
+		
+		.banner .btn:hover {
+			background: rgba(255, 255, 255, .05);
+		}
+		
+		.banner .dots {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 20px;
+		}
+		
+		.banner .dots li {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin: 0 4px;
+			text-indent: -999em;
+			border: 2px solid #fff;
+			border-radius: 6px;
+			cursor: pointer;
+			opacity: .4;
+			-webkit-transition: background .5s, opacity .5s;
+			-moz-transition: background .5s, opacity .5s;
+			transition: background .5s, opacity .5s;
+		}
+		
+		.banner .dots li.active {
+			background: #fff;
+			opacity: 1;
+		}
+		
+		
+		#logo {
+			width: 70px;
+			height: 70px;
+			position: fixed;
+			top: 0px;
+			left: 0.1vw;
+		}
+		
+	
+		summary {
+			margin-left: 2vw;
+			margin-right: 2vw;
+			word-wrap: break-word;
+			font-size: 32px;
+		}
+		
+		#outlineImg {
+			border-radius: 50%;
+			width: 40px;
+			height: 40px;
+			border: 4px solid black;
+			margin-left: 1vw;
+			position: relative;
+			bottom: -5px;
+		}
+		
+		
+		#foot {
+			padding-top:2vw;
+			background-color: #333333;
+			height: 16vw;
+		}
+		
+		#footerLogo {
+			width: 10vw;
+			height: 10vw;
+			float: left;
+		}
+		
+		#contact {
+			color: white;
+		}
+		
+	
+		#topTitle {
+			position: fixed;
+			top: 0;
+			left: 80px;
+			line-height: 60px;
+			font-size: 30px;
+			color: white;
+		}
+		
+		#linkP {
+			text-align: right;
+			margin-top: 5px
+		}
+		
+		table tr td img {
+			width: 18vw;
+			height: 4vw
+		}
+		
+		#bodyBar{
+		margin-bottom:6vw;
+		margin-left:4vw;
+		margin-right:4vw;
+		font-size:2vw;
+		}
+		
+		#colDivide{
+		border:none;
+		}
+		
+		#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;		
+	margin-bottom:4vw;
+	font-size:1.4vw;
+}
+#navigation li {
+    float: left;
+}
+#navigation li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	width:24vw;
+}
+#navigation li a:hover {
+    background-color: #111;
+}
+		
+		
+	#Image {
+	height: auto;
+	width: auto;
+}
+    </style>
+
+	<title>Team 2928 - Viking Robotics</title>
+
+</head>
+
+<body>
+
+
+	<div class="container_row" id="bodyBar">
+	
+	
+	<table style="width:100%" cellspacing="40" cellpadding="0">
+
+  <tr id="colDivide">
+    <!--<td>Img</td>-->
+	  <td>
+		<p><b>Financial Donations</b>
+			<br />
+			There are two easy ways to donate to our team:
+			<br />
+		  1) We are happy to accept checks sent to Ballard Viking Robotics, 1418 NW 65th St, Seattle, Wa 98117, made out to FIRST Washington with &quot;FRC 2928&quot; in the memo. We will record you and/or your company&#8217;s information when received. <br /><br />
+	    2) Tax deductible donations can be made through <a href="http://firstwa.org/" title="FIRST Washington">FIRST Washington</a> online. </p>
+		<p>&nbsp;</p>
+	    <p>Click on the green Donate button on the top right.</p>
+	    <p><img src="Donate1.PNG"  alt="FIRST Wa Donate Button" width="1240" height="229"></p>
+	    <p>&nbsp;</p>
+	    <p>Fill out the form.</p>
+	    <p>&nbsp;</p>
+	    <p>Make sure you direct the donation to FRC Team 2928</p>
+	    <p><img src="TeamNumber.PNG" width="855" height="358" alt="Make sure to direct your donation to FRC 2928"></p>
+	    <p><br />
+	      <b>Supplies and In-kind Donations</b>
+		  <br />
+	    Building materials and meals are welcome!</p></td>
+	  </tr>  
+
+</table>
+	
+	
+	
+	</div>
+	
+	
+
+</body>
+
+</html>
