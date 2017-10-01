@@ -1,0 +1,25 @@
+{
+  "name": "bvrclub.github.io",
+  "version": "0.0.0",
+  "description": "Website for BVR",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.1",
+    "webvr-polyfill": "^0.9.39"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvrclub/bvrclub.github.io.git"
+  },
+  "author": "Avery Wagar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bvrclub/bvrclub.github.io/issues"
+  },
+  "homepage": "https://github.com/bvrclub/bvrclub.github.io#readme"
+}
