@@ -1,0 +1,22 @@
+{
+  "name": "bvrclub.com",
+  "version": "0.0.1",
+  "description": "Website for BVR Club",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/supervrteam2928/supervrteam2928.github.io.git"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Avery Wagar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/supervrteam2928/supervrteam2928.github.io/issues"
+  },
+  "homepage": "https://github.com/supervrteam2928/supervrteam2928.github.io#readme"
+}
