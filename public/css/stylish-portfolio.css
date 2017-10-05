@@ -12,6 +12,7 @@ html,
 body {
   width: 100%;
   height: 100%;
+
 }
 
 title {
@@ -19,6 +20,7 @@ title {
 
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  background-image: url("/public/img/bg.jpg");
 }
 
 .text-vertical-center {
