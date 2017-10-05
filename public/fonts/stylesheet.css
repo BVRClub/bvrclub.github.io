@@ -4,8 +4,8 @@
 
 @font-face {
 stylesheet    font-family: 'paranoidregular';
-    src: url('paranoid-webfont.woff2') format('woff2'),
-         url('paranoid-webfont.woff') format('woff');
+    src: url('/public/fonts/paranoid-webfont.woff2') format('woff2'),
+         url('/public/fonts/paranoid-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
