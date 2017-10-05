@@ -8,7 +8,6 @@
 
 
 
-
 html,
 body {
   width: 100%;
@@ -16,12 +15,10 @@ body {
 }
 
 title {
-  font-family: Paranoid;
-  font-size: 72px;
 }
 
 body {
-  font-family: Paranoid,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .text-vertical-center {
